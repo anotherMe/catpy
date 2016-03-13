@@ -1,0 +1,59 @@
+
+
++	(cmd) Evidenziare le stringhe usate per la ricerca nell'output 
+	dei risultati.
+
++	Notificare all'utente quando vengono incontrati percorsi 
+	non accessibili dall'utente corrente ? (Se è sufficiente il warning, lo
+	hai già fatto) 
+		
++	Aggiungere gestione delle proprieta' (file INI, XML ?)
+
++	Integrare il modulo readline (disponibile solo per Unix)
+	per aver funzioni avanzate di shell nella funzione 
+	raw_input (vedi: 15.7 readline -- GNU readline interface )
+
+!	Errore aggiungendo come path: /home/stanis/Desktop (aggiungendo direttamente
+	/home/stanis, sembra funzionare tutto).
+
+/	Eliminare warning per i link (magari prevedere l'aggiunta nel catalog dei
+	links come file particolari, di una nuova tipologia.
+
+/	Modificare l'icona dei tasti 'aggiungi' e 'rimuovi' della toolbar (che sotto
+	Windows fanno cagare)
+
++	Implementare la funzionalità 'Save as...'
+
++	Completare i dati che vengono memorizzati per ogni file (permessi, 
+	dimensioni, etc...)
+
++	(wx) modificare il fileTree in modo da visualizzare anche gli altri dati 
+	oltre al nome del file (permessi, dimensioni, etc...)
+
+/	Rendere omogenei i nomi dei membri
+
++	Creare e integrare un artwork per il programma (magari scalabile,
+	che possa essere visualizzata come icona del programma ma anche in
+	formati più grossi).
+	
++	Implementare la funzionalità *Save as...*
+
++	Implementare gestione delle categorie:
+
+	- inserire una nuova tabella DAT_Categories con cui saranno relazionate le
+		device (?)
+
+	- aggiungere un dialogo per editare le categorie
+
+	- modificare il deviceTree per visualizzare le categorie
+
+
++	Modificare la versione console per allinearla alla versione wx.
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+

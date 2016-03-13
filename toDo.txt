@@ -1,0 +1,48 @@
+
++	Modificare la versione console per allinearla alla versione wx.
+
++	(cmd) Evidenziare le stringhe usate per la ricerca nell'output 
+	dei risultati.
+
++	Notificare all'utente quando vengono incontrati percorsi 
+	non accessibili dall'utente corrente ? (Se è sufficiente il warning, lo
+	hai già fatto) 
+
++	Integrare il modulo readline (disponibile solo per Unix)
+	per aver funzioni avanzate di shell nella funzione 
+	raw_input (vedi: 15.7 readline -- GNU readline interface )
+
+!	Errore aggiungendo come path: /home/stanis/Desktop (aggiungendo direttamente
+	/home/stanis, sembra funzionare tutto).
+
+/	Eliminare warning per i link (magari prevedere l'aggiunta nel catalog dei
+	links come file particolari, di una nuova tipologia.
+
+
++	(wx) modificare il fileTree in modo da visualizzare anche gli altri dati 
+	oltre al nome del file (permessi, dimensioni, etc...)
+
+/	Rendere omogenei i nomi dei membri
+
+/	Completare l'integrazione del file di proprietà (INI), inserendo
+	altri campi nel file e le opportune funzioni per leggere tali
+	valori.
+
++	Creare e integrare un artwork per il programma (magari scalabile,
+	che possa essere visualizzata come icona del programma ma anche in
+	formati più grossi).
+
++	Implementare un browser per le icone, in modo tale da consentire all'utente
+	di associare una specifica icona ad ogni nuova categoria inserita.
+	
+/	Perfezionare il funzionamento della taskbar icon.	
+	
+/	Uniformare l'interfaccia del customButtonPanel e della toolBar in modo
+	tale da renderle intercambiabili in maniera trasparente. In questo modo
+	sarà possibile caricare la vecchia toolbar, in caso l'utente non disponga
+	di librerie aggiornate.
+
+/	Inhibit deviceTree popup menu if right click is pressed over a category
+
+--------------------------------------------------------------------------------
+
